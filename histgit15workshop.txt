@@ -1,0 +1,24 @@
+  
+  368  git init
+  369  git config --global user.name shivastic
+  370  git config --global user.name //to check if user entered properly or not
+    the above command will return the active user name.
+  371  git config --global user.email shivthevirus@gmail.com
+
+  372  touch empty // creating empty file
+  375  echo "trial text" >>empty //echo command to write in any empty file
+  376  less empty //shows the content of empty
+
+  377  echo "sirf is liye ye line enter kar rha hu becozzz akshay jain ko trail chahiye" >>empty
+  378  less empty 
+
+  
+  380  git add empty
+  400  git commit -m "first"
+  394  git remote add origin https://github.com/shivastic/first-repos.git
+  395  git push -u origin master
+ 
+  399  git add .  //with reference to line 380...line 380 only add the single file to the git but 
+this command will insert all the files available on the particular directory.
+ 
+  
